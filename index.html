@@ -1,0 +1,2763 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="./assets/vendor/bootstrap.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+
+    <div class="header-banner px-3 px-lg-0">
+      <div class="wrapper">
+        <div
+          class="banner-content d-flex justify-content-between align-items-center"
+        >
+          <span class="banner-txt d-block w-100">
+            <span>
+              Summer Sale For All Swim Suits And Free Express Delivery - OFF
+              50%!</span
+            >
+            <a href="#" class="shop-link">ShopNow</a>
+          </span>
+
+          <div class="dropdown lan-dropdown-custom ms-5">
+            <button
+              class="btn lan-btn lan-btn-custom dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              English
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Persian</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="header-style pt-5 pb-3 px-3 px-lg-0">
+      <div class="wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light nav-custom">
+          <div class="container-fluid">
+            <a class="navbar-brand brand-style" href="#">exclusive</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div
+              class="collapse navbar-collapse d-lg-flex justify-content-center"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav navbar-nav-custom mb-2 mb-lg-0">
+                <li class="nav-item nav-item-custom me-5">
+                  <a
+                    class="nav-link nav-link-custom active-custom"
+                    aria-current="page"
+                    href="#"
+                    >home</a
+                  >
+                </li>
+                <li class="nav-item nav-item-custom me-5">
+                  <a class="nav-link nav-link-custom" href="#">contact</a>
+                </li>
+                <li class="nav-item nav-item-custom me-5">
+                  <a class="nav-link nav-link-custom" href="#">about</a>
+                </li>
+                <li class="nav-item nav-item-custom">
+                  <a class="nav-link nav-link-custom" href="#">
+                    <span class="hover-span">
+                      sign up
+                      <span class="material-symbols-outlined symbol-custom">
+                        keyboard_arrow_down
+                      </span>
+                    </span>
+                  </a>
+                  <div class="subnav-content">
+                    <ul class="subnav-ul">
+                      <li><a href="#">Sign in</a></li>
+                      <li><a href="#">Team</a></li>
+                      <li><a href="#">Careers</a></li>
+                      
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="right-nav d-flex align-items-center d-none d-lg-flex">
+              <form class="flex-grow-1">
+                <div class="d-flex position-relative">
+                  <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="What are you looking for?"
+                  aria-label="Search"
+                  />
+                  <i class="material-symbols-outlined icon-send">
+                    search
+                  </i>
+                </div>
+              </form>
+              <div class="icons-header d-flex ms-3">
+                <a href="#">
+                  <i class="material-symbols-outlined icon-header px-2">
+                    favorite
+                  </i>
+                </a>
+                <a href="#">
+                  <i class="material-symbols-outlined icon-header px-2">
+                    shopping_cart
+                  </i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="wrapper">
+        <section class="header-slider mt-5">
+
+          <div class="slider-hero swiper">
+
+            <div class="swiper-wrapper swiper-wrapper-hero">
+
+              <div class="swiper-slide swiper-slide-hero">
+                <img src="./img/header-slide1.png" />
+              </div>
+              <div class="swiper-slide swiper-slide-hero">
+                <img src="./img/header-slide1.png" />
+              </div>
+              <div class="swiper-slide swiper-slide-hero">
+                <img src="./img/header-slide1.png" />
+              </div>
+              <div class="swiper-slide swiper-slide-hero">
+                <img src="./img/header-slide1.png" />
+              </div>
+              <div class="swiper-slide swiper-slide-hero">
+                <img src="./img/header-slide1.png" />
+              </div>
+              ...
+            </div>
+            <div class="slider-hero-pagination swiper-pagination"></div>
+          </div>
+        </section>
+
+        <section class="products flash-sales-sec px-3 px-lg-0">
+          <div class="swiper sales-slider">
+            <div class="product-header d-flex flex-column flex-md-row mb-5">
+              <div class="product-left me-5">
+                <div class="subtitle d-flex align-items-center">
+                  <span class="subtitle-txt">today's</span>
+                </div>
+                <h5 class="products-title mt-4">Flash Sales</h5>
+              </div>
+
+              <div class="product-right d-flex align-items-end">
+                <div id="countdowntimer"><span id="future_date"></span></div>
+              </div>
+
+              <div
+                class="swiper-buttons d-flex align-items-end flex-grow-1 justify-content-end"
+              >
+                <div class="sales-slider-arrows swiper-button-prev-sales me-1">
+                  <span class="material-symbols-outlined arrow-style">
+                    arrow_back
+                  </span>
+                </div>
+                <div class="sales-slider-arrows swiper-button-next-sales ms-1">
+                  <span class="material-symbols-outlined arrow-style">
+                    arrow_forward
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-wrapper">
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+                  <img
+                    class="image-card"
+                    src="./img/playstation.png"
+                    alt="playstation"
+                  />
+
+                  <div class="d-inline-block tag-product off-percent">-40%</div>
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    HAVIT HV-G92 Gamepad
+                  </h5>
+                  <div class="card-costs">
+                    <span class="cost-off">$120</span>
+                    <del class="cost-real">$160</del>
+                  </div>
+
+                  <div
+                    class="stars-rating mt-2 position-relative d-inline-block"
+                  >
+                    <div class="stars-empty d-flex align-items-center">
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                    </div>
+                    <div
+                      class="stars-fill d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                    >
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                    </div>
+                  </div>
+                  <span class="comment">(88)</span>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+                  <img
+                    class="image-card"
+                    src="./img/keyboard.png"
+                    alt="keyboard"
+                  />
+                  <div class="d-inline-block tag-product off-percent">-35%</div>
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    AK-900 Wired Keyboard
+                  </h5>
+                  <div class="card-costs">
+                    <span class="cost-off">$960</span>
+                    <del class="cost-real">$1160</del>
+                  </div>
+
+                  <div
+                    class="stars-rating mt-2 position-relative d-inline-block"
+                  >
+                    <div class="stars-empty d-flex align-items-center">
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                    </div>
+                    <div
+                      class="stars-fill stars-fill-4 d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                    >
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                    </div>
+                  </div>
+                  <span class="comment">(75)</span>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+                  <img
+                    class="image-card"
+                    src="./img/monitor.png"
+                    alt="monitor"
+                  />
+                  <div class="d-inline-block tag-product off-percent">-30%</div>
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    IPS LCD Gaming Monitor
+                  </h5>
+                  <div class="card-costs">
+                    <span class="cost-off">$370</span>
+                    <del class="cost-real">$400</del>
+                  </div>
+
+                  <div
+                    class="stars-rating mt-2 position-relative d-inline-block"
+                  >
+                    <div class="stars-empty d-flex align-items-center">
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                    </div>
+                    <div
+                      class="stars-fill d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                    >
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                    </div>
+                  </div>
+                  <span class="comment">(99)</span>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+                  <img class="image-card" src="./img/chair.png" alt="chair" />
+                  <div class="d-inline-block tag-product off-percent">-25%</div>
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    S-Series Comfort Chair
+                  </h5>
+                  <div class="card-costs">
+                    <span class="cost-off">$375</span>
+                    <del class="cost-real">$400</del>
+                  </div>
+
+                  <div
+                    class="stars-rating mt-2 position-relative d-inline-block"
+                  >
+                    <div class="stars-empty d-flex align-items-center">
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                    </div>
+                    <div
+                      class="stars-fill stars-fill-4-half d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                    >
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                    </div>
+                  </div>
+                  <span class="comment">(75)</span>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+                  <img class="image-card" src="./img/bag.png" alt="bag" />
+                  <div class="d-inline-block tag-product off-percent">-25%</div>
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    Series Comfort bag
+                  </h5>
+                  <div class="card-costs">
+                    <span class="cost-off">$375</span>
+                    <del class="cost-real">$400</del>
+                  </div>
+
+                  <div
+                    class="stars-rating mt-2 position-relative d-inline-block"
+                  >
+                    <div class="stars-empty d-flex align-items-center">
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                    </div>
+                    <div
+                      class="stars-fill d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                    >
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                    </div>
+                  </div>
+                  <span class="comment">(75)</span>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+                  <img class="image-card" src="./img/jacket.png" alt="jacket" />
+                  <div class="d-inline-block tag-product off-percent">-25%</div>
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    Series Comfort jacket
+                  </h5>
+                  <div class="card-costs">
+                    <span class="cost-off">$375</span>
+                    <del class="cost-real">$400</del>
+                  </div>
+
+                  <div
+                    class="stars-rating mt-2 position-relative d-inline-block"
+                  >
+                    <div class="stars-empty d-flex align-items-center">
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                    </div>
+                    <div
+                      class="stars-fill stars-fill-4 d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                    >
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                    </div>
+                  </div>
+                  <span class="comment">(75)</span>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="btn-parent text-center">
+            <button class="btn view-btn">view all products</button>
+          </div>
+        </section>
+
+        <section class="products categories px-3 px-lg-0">
+          <div class="swiper category-slider">
+            <div class="product-header d-flex flex-column flex-md-row mb-5">
+              <div class="product-left me-5">
+                <div class="subtitle d-flex align-items-center">
+                  <span class="subtitle-txt">categories</span>
+                </div>
+                <h5 class="products-title mt-4">Browse By Category</h5>
+              </div>
+
+              <div
+                class="swiper-buttons d-flex align-items-end flex-grow-1 justify-content-end"
+              >
+                <div
+                  class="sales-slider-arrows swiper-button-prev-category me-1"
+                >
+                  <span class="material-symbols-outlined arrow-style">
+                    arrow_back
+                  </span>
+                </div>
+                <div
+                  class="sales-slider-arrows swiper-button-next-category ms-1"
+                >
+                  <span class="material-symbols-outlined arrow-style">
+                    arrow_forward
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-wrapper">
+              <div class="swiper-slide category-item">
+                <a
+                  href="#"
+                  class="category-link d-flex align-items-center flex-column"
+                >
+                  <img src="./img/category-cellphone.png" alt="cellphone" />
+                  <span class="category-txt">phones</span>
+                </a>
+              </div>
+
+              <div class="swiper-slide category-item">
+                <a
+                  href="#"
+                  class="category-link d-flex align-items-center flex-column"
+                >
+                  <img src="./img/category-computer.png" alt="computer" />
+                  <span class="category-txt">computer</span>
+                </a>
+              </div>
+
+              <div class="swiper-slide category-item">
+                <a
+                  href="#"
+                  class="category-link d-flex align-items-center flex-column"
+                >
+                  <img src="./img/category-smartwatch.png" alt="smartwatch" />
+                  <span class="category-txt">smartwatch</span>
+                </a>
+              </div>
+
+              <div class="swiper-slide category-item">
+                <a
+                  href="#"
+                  class="category-link d-flex align-items-center flex-column"
+                >
+                  <img src="./img/category-camera.png" alt="camera" />
+                  <span class="category-txt">camera</span>
+                </a>
+              </div>
+
+              <div class="swiper-slide category-item">
+                <a
+                  href="#"
+                  class="category-link d-flex align-items-center flex-column"
+                >
+                  <img src="./img/category-headphone.png" alt="headphone" />
+                  <span class="category-txt">headphones</span>
+                </a>
+              </div>
+
+              <div class="swiper-slide category-item">
+                <a
+                  href="#"
+                  class="category-link d-flex align-items-center flex-column"
+                >
+                  <img src="./img/category-gamepad.png" alt="gamepad" />
+                  <span class="category-txt">gaming</span>
+                </a>
+              </div>
+
+              <div class="swiper-slide category-item">
+                <a
+                  href="#"
+                  class="category-link d-flex align-items-center flex-column"
+                >
+                  <img src="./img/category-camera.png" alt="camera" />
+                  <span class="category-txt">camera</span>
+                </a>
+              </div>
+
+              <div class="swiper-slide category-item">
+                <a
+                  href="#"
+                  class="category-link d-flex align-items-center flex-column"
+                >
+                  <img src="./img/category-cellphone.png" alt="cellphone" />
+                  <span class="category-txt">phones</span>
+                </a>
+              </div>
+
+              <div class="swiper-slide category-item">
+                <a
+                  href="#"
+                  class="category-link d-flex align-items-center flex-column"
+                >
+                  <img src="./img/category-gamepad.png" alt="gamepad" />
+                  <span class="category-txt">gaming</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="products best-sell px-3 px-lg-0">
+          <div class="swiper best-sell-slider">
+            <div class="product-header d-flex flex-column flex-md-row mb-5">
+              <div class="product-left me-5">
+                <div class="subtitle d-flex align-items-center">
+                  <span class="subtitle-txt">this month</span>
+                </div>
+                <h5 class="products-title mt-4">best selling products</h5>
+              </div>
+
+              <div
+                class="btn-parent d-flex align-items-end flex-grow-1 justify-content-end"
+              >
+                <button class="btn view-btn">view all</button>
+              </div>
+            </div>
+
+            <div class="swiper-wrapper">
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+                  <img class="image-card" src="./img/jacket.png" alt="jacket" />
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">The north coat</h5>
+                  <div class="card-costs">
+                    <span class="cost-off">$260</span>
+                    <del class="cost-real">$360</del>
+                  </div>
+
+                  <div
+                    class="stars-rating mt-2 position-relative d-inline-block"
+                  >
+                    <div class="stars-empty d-flex align-items-center">
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                    </div>
+                    <div
+                      class="stars-fill d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                    >
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                    </div>
+                  </div>
+                  <span class="comment">(65)</span>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+                  <img class="image-card" src="./img/bag.png" alt="bag" />
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">Gucci duffle bag</h5>
+                  <div class="card-costs">
+                    <span class="cost-off">$960</span>
+                    <del class="cost-real">$1160</del>
+                  </div>
+
+                  <div
+                    class="stars-rating mt-2 position-relative d-inline-block"
+                  >
+                    <div class="stars-empty d-flex align-items-center">
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                    </div>
+                    <div
+                      class="stars-fill stars-fill-4-half d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                    >
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                    </div>
+                  </div>
+                  <span class="comment">(65)</span>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+                  <img
+                    class="image-card"
+                    src="./img/speaker.png"
+                    alt="speaker"
+                  />
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    RGB liquid CPU Cooler
+                  </h5>
+                  <div class="card-costs">
+                    <span class="cost-off">$160</span>
+                    <del class="cost-real">$170</del>
+                  </div>
+
+                  <div
+                    class="stars-rating mt-2 position-relative d-inline-block"
+                  >
+                    <div class="stars-empty d-flex align-items-center">
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                    </div>
+                    <div
+                      class="stars-fill stars-fill-4-half d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                    >
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                    </div>
+                  </div>
+                  <span class="comment">(65)</span>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+                  <img
+                    class="image-card"
+                    src="./img/bookshelf.png"
+                    alt="bookshelf"
+                  />
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">Small BookSelf</h5>
+                  <div class="card-costs">
+                    <span class="cost-off">$360</span>
+                  </div>
+
+                  <div
+                    class="stars-rating mt-2 position-relative d-inline-block"
+                  >
+                    <div class="stars-empty d-flex align-items-center">
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                    </div>
+                    <div
+                      class="stars-fill d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                    >
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                    </div>
+                  </div>
+                  <span class="comment">(75)</span>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+                  <img class="image-card" src="./img/chair.png" alt="chair" />
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    Series Comfort chair
+                  </h5>
+                  <div class="card-costs">
+                    <span class="cost-off">$385</span>
+                    <del class="cost-real">$420</del>
+                  </div>
+
+                  <div
+                    class="stars-rating mt-2 position-relative d-inline-block"
+                  >
+                    <div class="stars-empty d-flex align-items-center">
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                    </div>
+                    <div
+                      class="stars-fill d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                    >
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                    </div>
+                  </div>
+                  <span class="comment">(75)</span>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+                  <img
+                    class="image-card"
+                    src="./img/playstation.png"
+                    alt="playstation"
+                  />
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    Series playstation
+                  </h5>
+                  <div class="card-costs">
+                    <span class="cost-off">$455</span>
+                    <del class="cost-real">$700</del>
+                  </div>
+
+                  <div
+                    class="stars-rating mt-2 position-relative d-inline-block"
+                  >
+                    <div class="stars-empty d-flex align-items-center">
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                      <i class="fa-regular fa-star fa-star-custom"></i>
+                    </div>
+                    <div
+                      class="stars-fill stars-fill-4 d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                    >
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                      <i class="fa-solid fa-star fa-star-custom"></i>
+                    </div>
+                  </div>
+                  <span class="comment">(75)</span>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div
+            class="swiper-buttons d-flex align-items-end flex-grow-1 justify-content-center mt-5"
+          >
+            <div class="sales-slider-arrows swiper-button-prev-best-sell me-1">
+              <span class="material-symbols-outlined arrow-style">
+                arrow_back
+              </span>
+            </div>
+            <div class="sales-slider-arrows swiper-button-next-best-sell ms-1">
+              <span class="material-symbols-outlined arrow-style">
+                arrow_forward
+              </span>
+            </div>
+          </div>
+        </section>
+
+        <section class="special-sell">
+          <div class="row">
+            <div class="col-12 col-lg-6 order-1 order-lg-0 left-special">
+
+              <span class="category-special">categories</span>
+              <div class="special-heading">
+                <span class="d-block">enhance your</span>
+                <span class="d-block">Music Experience</span>
+              </div>
+
+              <div id="countdowntimer">
+                <span id="future_date_special"></span>
+              </div>
+
+              <div class="btn-parent">
+                <button class="btn buy-btn">buy now!</button>
+              </div>
+            </div>
+            <div
+              class="col-12 col-lg-6 order-0 order-lg-1 d-flex justify-content-center align-items-center right-special"
+            >
+              <div class="img-special-parent py-5">
+                <img
+                  src="./img/jblspeaker.png"
+                  alt="speaker"
+                  class="img-special"
+                />
+              </div>
+            </div>
+          </div>
+          <img src="./img/bg-shadow.png" alt="shadow" class="bg-shadow" />
+        </section>
+
+        <section class="products explore-products px-3 px-lg-0">
+          <div class="swiper explore-products-slider">
+            <div class="product-header d-flex flex-column flex-md-row mb-5">
+              <div class="product-left me-5">
+                <div class="subtitle d-flex align-items-center">
+                  <span class="subtitle-txt">Our Products</span>
+                </div>
+                <h5 class="products-title mt-4">Explore Our Products</h5>
+              </div>
+
+              <div
+                class="swiper-buttons d-flex align-items-end flex-grow-1 justify-content-end"
+              >
+                <div
+                  class="sales-slider-arrows swiper-button-prev-explore-products me-1"
+                >
+                  <span class="material-symbols-outlined arrow-style">
+                    arrow_back
+                  </span>
+                </div>
+                <div
+                  class="sales-slider-arrows swiper-button-next-explore-products ms-1"
+                >
+                  <span class="material-symbols-outlined arrow-style">
+                    arrow_forward
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-wrapper">
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+                  <img class="image-card" src="./img/food.png" alt="food" />
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    Breed Dry Dog Food
+                  </h5>
+                  <div class="cost-rate-parent d-flex align-items-center">
+                    <div class="card-costs me-2">
+                      <span class="cost-off">$100</span>
+                    </div>
+                    <div class="stars-rating me-2 position-relative d-flex">
+                      <div class="stars-empty d-flex align-items-center">
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                      </div>
+                      <div
+                        class="stars-fill stars-fill-3 d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                      >
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                      </div>
+                    </div>
+                    <span class="comment">(35)</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+                  <img class="image-card" src="./img/cam.png" alt="camera" />
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    CANON EOS DSLR Camera
+                  </h5>
+                  <div class="cost-rate-parent d-flex align-items-center">
+                    <div class="card-costs me-2">
+                      <span class="cost-off">$360</span>
+                    </div>
+                    <div class="stars-rating me-2 position-relative d-flex">
+                      <div class="stars-empty d-flex align-items-center">
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                      </div>
+                      <div
+                        class="stars-fill stars-fill-4 d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                      >
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                      </div>
+                    </div>
+                    <span class="comment">(95)</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+                  <img class="image-card" src="./img/laptop.png" alt="laptop" />
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    ASUS FHD Gaming Laptop
+                  </h5>
+                  <div class="cost-rate-parent d-flex align-items-center">
+                    <div class="card-costs me-2">
+                      <span class="cost-off">$700</span>
+                    </div>
+                    <div class="stars-rating me-2 position-relative d-flex">
+                      <div class="stars-empty d-flex align-items-center">
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                      </div>
+                      <div
+                        class="stars-fill d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                      >
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                      </div>
+                    </div>
+                    <span class="comment">(325)</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+                  <img class="image-card" src="./img/cream.png" alt="cream" />
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    Curology Product Set
+                  </h5>
+                  <div class="cost-rate-parent d-flex align-items-center">
+                    <div class="card-costs me-2">
+                      <span class="cost-off">$500</span>
+                    </div>
+                    <div class="stars-rating me-2 position-relative d-flex">
+                      <div class="stars-empty d-flex align-items-center">
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                      </div>
+                      <div
+                        class="stars-fill stars-fill-4 d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                      >
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                      </div>
+                    </div>
+                    <span class="comment">(145)</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+                  <img class="image-card" src="./img/food.png" alt="food" />
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    Breed Dry Dog Food
+                  </h5>
+                  <div class="cost-rate-parent d-flex align-items-center">
+                    <div class="card-costs me-2">
+                      <span class="cost-off">$100</span>
+                    </div>
+                    <div class="stars-rating me-2 position-relative d-flex">
+                      <div class="stars-empty d-flex align-items-center">
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                      </div>
+                      <div
+                        class="stars-fill stars-fill-3 d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                      >
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                      </div>
+                    </div>
+                    <span class="comment">(35)</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+                  <img class="image-card" src="./img/cam.png" alt="camera" />
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    CANON EOS DSLR Camera
+                  </h5>
+                  <div class="cost-rate-parent d-flex align-items-center">
+                    <div class="card-costs me-2">
+                      <span class="cost-off">$360</span>
+                    </div>
+                    <div class="stars-rating me-2 position-relative d-flex">
+                      <div class="stars-empty d-flex align-items-center">
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                      </div>
+                      <div
+                        class="stars-fill stars-fill-4 d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                      >
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                      </div>
+                    </div>
+                    <span class="comment">(95)</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+                  <img class="image-card" src="./img/jacket.png" alt="jacket" />
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">Jacket</h5>
+                  <div class="cost-rate-parent d-flex align-items-center">
+                    <div class="card-costs me-2">
+                      <span class="cost-off">$720</span>
+                    </div>
+                    <div class="stars-rating me-2 position-relative d-flex">
+                      <div class="stars-empty d-flex align-items-center">
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                      </div>
+                      <div
+                        class="stars-fill d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                      >
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                      </div>
+                    </div>
+                    <span class="comment">(125)</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+
+                  <img class="image-card" src="./img/chair.png" alt="chair" />
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">Curology Chair</h5>
+                  <div class="cost-rate-parent d-flex align-items-center">
+                    <div class="card-costs me-2">
+                      <span class="cost-off">$300</span>
+                    </div>
+                    <div class="stars-rating me-2 position-relative d-flex">
+                      <div class="stars-empty d-flex align-items-center">
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                      </div>
+                      <div
+                        class="stars-fill d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                      >
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                      </div>
+                    </div>
+                    <span class="comment">(125)</span>
+                  </div>
+                </div>
+              </article>
+
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+
+                  <img class="image-card" src="./img/car.png" alt="car" />
+
+                  <div class="d-inline-block tag-product new">new</div>
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    Kids Electric Car
+                  </h5>
+                  <div class="cost-rate-parent d-flex align-items-center">
+                    <div class="card-costs me-2">
+                      <span class="cost-off">$960</span>
+                    </div>
+                    <div class="stars-rating me-2 position-relative d-flex">
+                      <div class="stars-empty d-flex align-items-center">
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                      </div>
+                      <div
+                        class="stars-fill d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                      >
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                      </div>
+                    </div>
+                    <span class="comment">(65)</span>
+                  </div>
+
+                  <div class="color-option-parent d-flex">
+                    <div
+                      class="color-parent chosen-color-parent d-flex justify-content-center align-items-center"
+                    >
+                      <span class="chosen-color-red color"></span>
+                    </div>
+                    <div
+                      class="color-parent not-chosen-color-parent d-flex justify-content-center align-items-center"
+                    >
+                      <span class="not-chosen-color color"></span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+
+                  <img
+                    class="image-card"
+                    src="./img/sneakers.png"
+                    alt="sneakers"
+                  />
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    Jr. Zoom Soccer Cleats
+                  </h5>
+                  <div class="cost-rate-parent d-flex align-items-center">
+                    <div class="card-costs me-2">
+                      <span class="cost-off">$1160</span>
+                    </div>
+                    <div class="stars-rating me-2 position-relative d-flex">
+                      <div class="stars-empty d-flex align-items-center">
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                      </div>
+                      <div
+                        class="stars-fill d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                      >
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                      </div>
+                    </div>
+                    <span class="comment">(35)</span>
+                  </div>
+
+                  <div class="color-option-parent d-flex">
+                    <div
+                      class="color-parent chosen-color-parent d-flex justify-content-center align-items-center"
+                    >
+                      <span class="chosen-color-yellow color"></span>
+                    </div>
+                    <div
+                      class="color-parent not-chosen-color-parent d-flex justify-content-center align-items-center"
+                    >
+                      <span class="not-chosen-color color"></span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+
+                  <img class="image-card" src="./img/ps.png" alt="ps" />
+
+                  <div class="d-inline-block tag-product new">new</div>
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    GP11 Shooter USB Gamepad
+                  </h5>
+                  <div class="cost-rate-parent d-flex align-items-center">
+                    <div class="card-costs me-2">
+                      <span class="cost-off">$660</span>
+                    </div>
+                    <div class="stars-rating me-2 position-relative d-flex">
+                      <div class="stars-empty d-flex align-items-center">
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                      </div>
+                      <div
+                        class="stars-fill stars-fill-4-half d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                      >
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                      </div>
+                    </div>
+                    <span class="comment">(55)</span>
+                  </div>
+
+                  <div class="color-option-parent d-flex">
+                    <div
+                      class="color-parent chosen-color-parent d-flex justify-content-center align-items-center"
+                    >
+                      <span class="chosen-color-black color"></span>
+                    </div>
+                    <div
+                      class="color-parent not-chosen-color-parent d-flex justify-content-center align-items-center"
+                    >
+                      <span class="not-chosen-color color"></span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+
+                  <img class="image-card" src="./img/coat.png" alt="coat" />
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    Quilted Satin Jacket
+                  </h5>
+                  <div class="cost-rate-parent d-flex align-items-center">
+                    <div class="card-costs me-2">
+                      <span class="cost-off">$660</span>
+                    </div>
+                    <div class="stars-rating me-2 position-relative d-flex">
+                      <div class="stars-empty d-flex align-items-center">
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                      </div>
+                      <div
+                        class="stars-fill stars-fill-4-half d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                      >
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                      </div>
+                    </div>
+                    <span class="comment">(55)</span>
+                  </div>
+
+                  <div class="color-option-parent d-flex">
+                    <div
+                      class="color-parent chosen-color-parent d-flex justify-content-center align-items-center"
+                    >
+                      <span class="chosen-color-black color"></span>
+                    </div>
+                    <div
+                      class="color-parent not-chosen-color-parent d-flex justify-content-center align-items-center"
+                    >
+                      <span class="not-chosen-color color"></span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+
+                  <img class="image-card" src="./img/car.png" alt="car" />
+
+                  <div class="d-inline-block tag-product new">new</div>
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    Kids Electric Car
+                  </h5>
+                  <div class="cost-rate-parent d-flex align-items-center">
+                    <div class="card-costs me-2">
+                      <span class="cost-off">$960</span>
+                    </div>
+                    <div class="stars-rating me-2 position-relative d-flex">
+                      <div class="stars-empty d-flex align-items-center">
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                      </div>
+                      <div
+                        class="stars-fill d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                      >
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                      </div>
+                    </div>
+                    <span class="comment">(65)</span>
+                  </div>
+
+                  <div class="color-option-parent d-flex">
+                    <div
+                      class="color-parent chosen-color-parent d-flex justify-content-center align-items-center"
+                    >
+                      <span class="chosen-color-red color"></span>
+                    </div>
+                    <div
+                      class="color-parent not-chosen-color-parent d-flex justify-content-center align-items-center"
+                    >
+                      <span class="not-chosen-color color"></span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+
+                  <img
+                    class="image-card"
+                    src="./img/sneakers.png"
+                    alt="sneakers"
+                  />
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    Jr. Zoom Soccer Cleats
+                  </h5>
+                  <div class="cost-rate-parent d-flex align-items-center">
+                    <div class="card-costs me-2">
+                      <span class="cost-off">$1160</span>
+                    </div>
+                    <div class="stars-rating me-2 position-relative d-flex">
+                      <div class="stars-empty d-flex align-items-center">
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                      </div>
+                      <div
+                        class="stars-fill d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                      >
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                      </div>
+                    </div>
+                    <span class="comment">(35)</span>
+                  </div>
+
+                  <div class="color-option-parent d-flex">
+                    <div
+                      class="color-parent chosen-color-parent d-flex justify-content-center align-items-center"
+                    >
+                      <span class="chosen-color-yellow color"></span>
+                    </div>
+                    <div
+                      class="color-parent not-chosen-color-parent d-flex justify-content-center align-items-center"
+                    >
+                      <span class="not-chosen-color color"></span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+
+                  <img class="image-card" src="./img/ps.png" alt="ps" />
+
+                  <div class="d-inline-block tag-product new">new</div>
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    GP11 Shooter USB Gamepad
+                  </h5>
+                  <div class="cost-rate-parent d-flex align-items-center">
+                    <div class="card-costs me-2">
+                      <span class="cost-off">$660</span>
+                    </div>
+                    <div class="stars-rating me-2 position-relative d-flex">
+                      <div class="stars-empty d-flex align-items-center">
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                      </div>
+                      <div
+                        class="stars-fill stars-fill-4-half d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                      >
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                      </div>
+                    </div>
+                    <span class="comment">(55)</span>
+                  </div>
+
+                  <div class="color-option-parent d-flex">
+                    <div
+                      class="color-parent chosen-color-parent d-flex justify-content-center align-items-center"
+                    >
+                      <span class="chosen-color-black color"></span>
+                    </div>
+                    <div
+                      class="color-parent not-chosen-color-parent d-flex justify-content-center align-items-center"
+                    >
+                      <span class="not-chosen-color color"></span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              <article class="card-custom swiper-slide">
+                <div
+                  class="img-card-parent d-flex align-items-center justify-content-center"
+                >
+
+                  <img class="image-card" src="./img/coat.png" alt="coat" />
+
+                  <div class="card-icons d-flex flex-column">
+                    <a href="#" class="icon-card-link mb-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        favorite
+                      </i>
+                    </a>
+
+                    <a href="#" class="icon-card-link mt-1">
+                      <i
+                        class="material-symbols-outlined card-icon d-flex align-items-center"
+                      >
+                        visibility
+                      </i>
+                    </a>
+
+                    
+                  </div>
+                  <div class="add-cart">
+                    <span class="add-cart-txt">Add To Cart</span>
+                  </div>
+                </div>
+
+                <div class="card-body card-body-custom">
+                  <h5 class="card-title card-title-custom">
+                    Quilted Satin Jacket
+                  </h5>
+                  <div class="cost-rate-parent d-flex align-items-center">
+                    <div class="card-costs me-2">
+                      <span class="cost-off">$660</span>
+                    </div>
+                    <div class="stars-rating me-2 position-relative d-flex">
+                      <div class="stars-empty d-flex align-items-center">
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                        <i class="fa-regular fa-star fa-star-custom"></i>
+                      </div>
+                      <div
+                        class="stars-fill stars-fill-4-half d-flex align-items-center position-absolute top-0 bottom-0 left-0 right-0"
+                      >
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                        <i class="fa-solid fa-star fa-star-custom"></i>
+                      </div>
+                    </div>
+                    <span class="comment">(55)</span>
+                  </div>
+
+                  <div class="color-option-parent d-flex">
+                    <div
+                      class="color-parent chosen-color-parent d-flex justify-content-center align-items-center"
+                    >
+                      <span class="chosen-color-black color"></span>
+                    </div>
+                    <div
+                      class="color-parent not-chosen-color-parent d-flex justify-content-center align-items-center"
+                    >
+                      <span class="not-chosen-color color"></span>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="btn-parent text-center">
+            <button class="btn view-btn">view all products</button>
+          </div>
+        </section>
+
+        <section class="products new-arrive px-3 px-lg-0">
+          <div class="product-header d-flex flex-column flex-md-row mb-5">
+            <div class="product-left me-5">
+              <div class="subtitle d-flex align-items-center">
+                <span class="subtitle-txt">featured</span>
+              </div>
+              <h5 class="products-title mt-4">New Arrival</h5>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-xl-6">
+              <div
+                class="box-color box-new left-box-new d-flex justify-content-end justify-content-lg-center h-100 d-flex"
+              >
+                <img src="./img/ps5.png" alt="ps5" class="img-new-arrive" />
+                <div class="content-new-arrive content-new-arrive-left">
+                  <h4 class="header-new-arrive">PlayStation 5</h4>
+                  <p class="info-new-arrive">
+                    Black and white version of the PS5 <br />
+                    out on sale.
+                  </p>
+                  <button class="btn-shop">shop now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-xl-6">
+              <div class="box-color box-new top-right-box-new">
+                <div class="top-boxes d-flex justify-content-end">
+                  <img
+                    src="./img/woman.png"
+                    alt="woman"
+                    class="img-new-arrive img-new-arrive-horizontal"
+                  />
+                  <div class="content-new-arrive content-new-arrive-right">
+                    <h4 class="header-new-arrive">Women’s Collections</h4>
+                    <p class="info-new-arrive">
+                      Featured woman collections that <br />
+                      give you another vibe.
+                    </p>
+                    <button class="btn-shop">shop now</button>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="box-new bottom-right-box-new d-flex justify-content-between"
+              >
+                <div
+                  class="bottom-boxes bottom-box1 d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./img/newspeakers.png"
+                    alt="speakers"
+                    class="img-new-arrive"
+                  />
+                  <div class="content-new-arrive content-new-arrive-right">
+                    <h4 class="header-new-arrive">Speakers</h4>
+                    <p class="info-new-arrive">Amazon wireless speakers</p>
+                    <button class="btn-shop">shop now</button>
+                  </div>
+                </div>
+
+                <div
+                  class="bottom-boxes bottom-box2 d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./img/perfume.png"
+                    alt="perfume"
+                    class="img-new-arrive"
+                  />
+                  <div class="content-new-arrive content-new-arrive-right">
+                    <h4 class="header-new-arrive">Perfume</h4>
+                    <p class="info-new-arrive">GUCCI INTENSE OUD EDP</p>
+                    <button class="btn-shop">shop now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="team px-3 px-lg-0">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <div class="team-member">
+                <div class="team-img d-flex justify-content-center">
+                  <img src="./img/team1.png" alt="team member1" />
+                </div>
+                <div class="team-info">
+                  <span class="team-name team-detail">Tom Cruise</span>
+                  <span class="team-role team-detail">Founder & Chairman</span>
+                  <span class="team-contact team-detail">
+                    <a href="#" class="social-media-link">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-media-link">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-media-link">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-4">
+              <div class="team-member">
+                <div class="team-img d-flex justify-content-center">
+                  <img src="./img/team2.png" alt="team member2" />
+                </div>
+                <div class="team-info">
+                  <span class="team-name team-detail">Emma Watson</span>
+                  <span class="team-role team-detail">Managing Director</span>
+                  <span class="team-contact team-detail">
+                    <a href="#" class="social-media-link">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-media-link">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-media-link">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="team-member">
+                <div class="team-img d-flex justify-content-center">
+                  <img src="./img/team3.png" alt="team member3" />
+                </div>
+                <div class="team-info">
+                  <span class="team-name team-detail">Will Smith</span>
+                  <span class="team-role team-detail">Product Designer</span>
+                  <span class="team-contact team-detail">
+                    <a href="#" class="social-media-link">
+                      <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-media-link">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-media-link">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="features px-3 px-lg-0">
+
+          <div class="row justify-content-around">
+            <div class="col-12 col-lg-3 d-flex flex-column align-items-center">
+              <div
+                class="feature-icon-parent d-flex justify-content-center align-items-center"
+              >
+                <div
+                  class="feature-icon d-flex justify-content-center align-items-center"
+                >
+                  <i class="fas fa-shipping-fast feature-i"></i>
+                </div>
+              </div>
+              <div class="feature-info">
+                <span class="feature-name">FREE AND FAST DELIVERY</span>
+                <span class="feature-detail"
+                  >Free delivery for all orders over $140</span
+                >
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-3 d-flex flex-column align-items-center">
+              <div
+                class="feature-icon-parent d-flex justify-content-center align-items-center"
+              >
+                <div
+                  class="feature-icon d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-solid fa-headphones feature-i"></i>
+                </div>
+              </div>
+              <div class="feature-info">
+                <span class="feature-name">24/7 CUSTOMER SERVICE</span>
+                <span class="feature-detail"
+                  >Friendly 24/7 customer support</span
+                >
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-3 d-flex flex-column align-items-center">
+              <div
+                class="feature-icon-parent d-flex justify-content-center align-items-center"
+              >
+                <div
+                  class="feature-icon d-flex justify-content-center align-items-center"
+                >
+
+                  <i class="fa-solid fa-certificate feature-i"></i>
+                </div>
+              </div>
+              <div class="feature-info">
+                <span class="feature-name">MONEY BACK GUARANTEE</span>
+                <span class="feature-detail"
+                  >We reurn money within 30 days</span
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer-style px-3 px-lg-0">
+      <div class="wrapper">
+        <div class="row justify-content-between">
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="first-footer-item text-center text-xl-start">
+              <span class="footer-detail logo-footer">Exclusive</span>
+
+              <a href="#">
+                <span class="footer-detail title-footer subscribe-title"
+                >Subscribe</span
+              >
+              </a>
+              <span class="footer-detail txt-footer off-txt-footer"
+                >Get 10% off your first order</span
+              >
+              <form>
+                <div class="input-icon">
+                  <div class="d-inline-flex position-relative">
+                    <input
+                    type="text"
+                    placeholder="Enter your email"
+                    class="input-footer"
+                    />
+                    <span class="material-symbols-outlined icon-send">
+                      send
+                      </span>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-2">
+            <div class="second-footer-item text-center text-xl-start">
+              <span class="footer-detail title-footer">Support</span>
+              <div class="footer-box-detail">
+                <a
+                  href="https://www.google.com/maps"
+                  class="footer-detail txt-footer link-footer"
+                >
+                  111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.
+                </a>
+
+                <a
+                  href="https://mail.google.com/mail"
+                  class="footer-detail txt-footer link-footer"
+                >
+                  exclusive@gmail.com
+                </a>
+
+                <a href="#" class="footer-detail txt-footer link-footer">
+                  +88015-88888-9999
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-2 mt-5 mt-xl-0">
+            <div class="third-footer-item text-center text-xl-start">
+              <span class="footer-detail title-footer">Account</span>
+              <div class="footer-box-detail">
+                <a href="#" class="footer-detail txt-footer link-footer">
+                  My Account
+                </a>
+
+                <a href="#" class="footer-detail txt-footer link-footer">
+                  Login / Register
+                </a>
+
+                <a href="#" class="footer-detail txt-footer link-footer">
+                  Login / Register
+                </a>
+
+                <a href="#" class="footer-detail txt-footer link-footer">
+                  Cart
+                </a>
+
+                <a href="#" class="footer-detail txt-footer link-footer">
+                  Wishlist
+                </a>
+
+                <a href="#" class="footer-detail txt-footer link-footer">
+                  Shop
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-2 mt-5 mt-xl-0">
+            <div class="forth-footer-item text-center text-xl-start">
+              <span class="footer-detail title-footer">Quick Link</span>
+              <div class="footer-box-detail">
+                <a href="#" class="footer-detail txt-footer link-footer">
+                  Privacy Policy
+                </a>
+
+                <a href="#" class="footer-detail txt-footer link-footer">
+                  Terms Of Use
+                </a>
+
+                <a href="#" class="footer-detail txt-footer link-footer">
+                  FAQ
+                </a>
+
+                <a href="#" class="footer-detail txt-footer link-footer">
+                  Contact
+                </a>
+
+                <a href="#" class="footer-detail txt-footer link-footer">
+                  Wishlist
+                </a>
+
+                <a href="#" class="footer-detail txt-footer link-footer">
+                  Shop
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-2 mt-5 mt-xl-0">
+            <div class="last-footer-item text-center text-xl-start">
+              <span class="footer-detail title-footer subscribe-title"
+                >Download App</span
+              >
+              <span class="save-footer">Save $3 with App New User Only</span>
+
+              <div class="app d-flex justify-content-center justify-content-xl-start">
+                <div class="qr">
+                  <img src="./img/qrcode.png" alt="qrcode" class="qr-img" />
+                </div>
+
+                <div
+                  class="download-app d-flex flex-column justify-content-around"
+                >
+                  <img
+                    src="./img/googleplay.png"
+                    alt="googleplay"
+                    class="application"
+                  />
+                  <img
+                    src="./img/appstore.png"
+                    alt="appstore"
+                    class="application appstore"
+                  />
+                </div>
+              </div>
+
+              <div class="social-media">
+                <a href="#" class="social-media-footer">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" class="social-media-footer">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+
+                <a href="#" class="social-media-footer">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" class="social-media-footer">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="copy-right">
+          <i class="fa-solid fa-copyright"></i>
+          <span>Copyright Rimel 2022. All right reserved</span>
+        </div>
+      </div>
+    </footer>
+
+    <div class="scroll-top d-flex">
+      <a href="#">
+        <i class="fa-solid fa-arrow-up" id="top"></i>
+      </a>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/a43522ca2f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.1.1/js/all.js"
+      integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/jQuery.countdownTimer.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+  </body>
+</html>
